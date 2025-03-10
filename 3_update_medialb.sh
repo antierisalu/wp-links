@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory containing your downloaded PDFs
-if [ $pwd = "/var/www/html" ]; then
+if [ $PWD = "/var/www/html" ]; then
     PDF_DIR="/var/www/html/wp-content/uploads/dld"
     echo "PDF_DIR: $PDF_DIR"
     sleep 3
